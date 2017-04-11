@@ -5,6 +5,6 @@ $('#scroll__top').click(()=>{
 
 $(document).ready(()=>{
     if($('html').scrollTop()==0){
-        $('html').animate({scrollTop : $('#nav__container').outerHeight()-10},200);
+        $('html').animate({scrollTop : $('#nav__container').outerHeight()},200);
     }
 });
