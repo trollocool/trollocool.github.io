@@ -110,8 +110,10 @@ header {
     padding:1em 2em;
     display:block;
     color:#000;
-    border-bottom:1px solid #eee;
     flex-grow:1;
+}
+#nav__container .nav__entry__header:not(:last-of-type) {
+    border-bottom:2px solid #eee;
 }
 #nav__container .nav__entry__header__text {
     font-size:100%;
