@@ -217,6 +217,7 @@ footer #scroll__top:hover {
     }
     #nav__container .nav__entry__header {
         flex-grow:0;
+        padding:.6em 0;
     }
     #nav__container .nav__entry__dropdown {
         opacity:0;
