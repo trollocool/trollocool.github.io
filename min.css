@@ -212,10 +212,12 @@ footer #scroll__top:hover {
     }
 }
 @media (orientation:landscape) {
+    header {
+        background-color:#efefef;
+    }
     #nav__container {
         flex-direction:row;
         border-bottom-style:none;
-        background-color:#dadada;
     }
     #nav__container .nav__entry__dropdown {
         display:block;
