@@ -163,7 +163,7 @@ footer #scroll__top:hover {
 
 
 
-@media screen and (min-width:800px) {
+@media (min-width:800px) {
     #backgroundImageContainer {
         background-image:url("./media/Background.jpg");
     }
@@ -193,13 +193,13 @@ footer #scroll__top:hover {
         position:sticky;
     }
 }
-@media screen and (min-width:1320px) {
+@media (min-width:1320px) {
     #article__sidebar {
         background-color:rgba(0,0,0,.8);
         border-color:transparent;
     }
 }
-@media screen and (min-width:1600px) {
+@media (min-width:1600px) {
     #article {
         max-width:90%;
     }
@@ -208,7 +208,7 @@ footer #scroll__top:hover {
         margin-right:1%;
     }
 }
-@media screen and (orientation:landscape) {
+@media (orientation:landscape) {
     #nav__container {
         flex-direction:row;
     }
