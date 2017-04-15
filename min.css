@@ -140,6 +140,7 @@ footer {
     justify-content:space-around;
     font-family:"Ubuntu";
     align-items:center;
+    color:#000;
 }
 footer .footer__text {
     flex-grow:1;
@@ -158,13 +159,15 @@ footer #scroll__top {
     font-size:inherit;
     line-height:inherit;
     font-family:inherit;
-    color:#000;
+    color:inherit;
 }
 footer #scroll__top:hover {
     background-color:rgba(255,255,255,.3);
     cursor:pointer;
 }
-
+footer .footer__button {
+    color:inherit;
+}
 
 
 @media (min-width:800px) {
