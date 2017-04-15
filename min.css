@@ -213,6 +213,7 @@ footer #scroll__top:hover {
     #nav__container {
         flex-direction:row;
         border-bottom-style:none;
+        background-color:#dadada;
     }
     #nav__container .nav__entry__dropdown {
         display:block;
