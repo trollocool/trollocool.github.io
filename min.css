@@ -91,7 +91,7 @@ header {
     font-size:calc( -0.3833vw + 23.15px );
     width:100%;
     flex-wrap:wrap;
-    border-bottom:3px solid #ddd;
+    border-bottom:3px solid #bbb;
     flex-direction:column;
 }
 
@@ -114,7 +114,7 @@ header {
     flex-grow:1;
 }
 #nav__container .nav__entry:not(:last-of-type) {
-    border-bottom:2px solid #eee;
+    border-bottom:2px solid #ddd;
 }
 #nav__container .nav__entry__header__text {
     font-size:100%;
