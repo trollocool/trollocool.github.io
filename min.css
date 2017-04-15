@@ -68,7 +68,7 @@ body {
 
 
 header {
-    background-color:#eee;
+    background-color:#fff;
     display:flex;
     position:relative;
     top:0;
@@ -110,6 +110,7 @@ header {
     padding:1em 2em;
     display:block;
     color:#000;
+    border-bottom:1px solid #ddd;
     flex-grow:1;
 }
 #nav__container .nav__entry__header__text {
@@ -218,6 +219,7 @@ footer #scroll__top:hover {
     #nav__container .nav__entry__header {
         flex-grow:0;
         padding:.6em 0;
+        border-color:transparent;
     }
     #nav__container .nav__entry__dropdown {
         opacity:0;
