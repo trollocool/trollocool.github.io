@@ -113,7 +113,7 @@ header {
     color:#000;
     flex-grow:1;
 }
-#nav__container .nav__entry__header:not(:last-of-type) {
+#nav__container .nav__entry:not(:last-of-type) {
     border-bottom:2px solid #eee;
 }
 #nav__container .nav__entry__header__text {
@@ -223,13 +223,15 @@ footer .footer__button {
         flex-direction:row;
         border-bottom-style:none;
     }
+    #nav__container .nav__entry {
+        border-color:transparent;
+    }
     #nav__container .nav__entry__dropdown {
         display:block;
     }
     #nav__container .nav__entry__header {
         flex-grow:0;
         padding:.6em 0;
-        border-color:transparent;
     }
     #nav__container .nav__entry__dropdown {
         opacity:0;
