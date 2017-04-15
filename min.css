@@ -223,7 +223,7 @@ footer .footer__button {
         flex-direction:row;
         border-bottom-style:none;
     }
-    #nav__container .nav__entry {
+    #nav__container .nav__entry:not:(last-of-type) {
         border-color:transparent;
     }
     #nav__container .nav__entry__dropdown {
