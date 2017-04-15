@@ -90,7 +90,7 @@ header {
     font-size:calc( -0.3833vw + 23.15px );
     width:100%;
     flex-wrap:wrap;
-    border-bottom:1px solid #ddd;
+    border-bottom:3px solid #ddd;
     flex-direction:column;
 }
 
@@ -110,7 +110,7 @@ header {
     padding:1em 2em;
     display:block;
     color:#000;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid #eee;
     flex-grow:1;
 }
 #nav__container .nav__entry__header__text {
@@ -212,6 +212,7 @@ footer #scroll__top:hover {
 @media (orientation:landscape) {
     #nav__container {
         flex-direction:row;
+        border-bottom-style:none;
     }
     #nav__container .nav__entry__dropdown {
         display:block;
